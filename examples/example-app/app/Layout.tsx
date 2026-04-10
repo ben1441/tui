@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Box, Text } from '@tui/core';
-import { useRouter } from '@tui/router';
+import { Box, Text } from '@shreklabs/tui-core';
+import { useRouter } from '@shreklabs/tui-router';
 import { useInput } from 'ink';
 
 const tabs = [

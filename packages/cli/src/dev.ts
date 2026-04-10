@@ -3,7 +3,7 @@ import fs from 'fs';
 import * as esbuild from 'esbuild';
 import chokidar from 'chokidar';
 import React from 'react';
-import { renderApp, AppInstance } from '@tui/core';
+import { renderApp, AppInstance } from '@shreklabs/tui-core';
 
 function generateRoutes(appDir: string, outDir: string, distDir: string) {
   const routes: any[] = [];
@@ -48,7 +48,7 @@ function generateRoutes(appDir: string, outDir: string, distDir: string) {
   }
 
   const generatedContent = "import React from 'react';\n" +
-    "import { RouterManager } from '@tui/router';\n" +
+    "import { RouterManager } from '@shreklabs/tui-router';\n" +
     imports.join("\n") + "\n" +
     "const routes = [\n" +
     routes.join(",\n") +

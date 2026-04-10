@@ -84,7 +84,7 @@ export async function buildApp() {
   scan(appDir);
 
   const generatedRoutes = "import React from 'react';\n" +
-    "import { RouterManager } from '@tui/router';\n" +
+    "import { RouterManager } from '@shreklabs/tui-router';\n" +
     imports.join("\n") + "\n" +
     "const routes = [\n" +
     routes.join(",\n") +
@@ -98,7 +98,7 @@ export async function buildApp() {
   // Generate entrypoint for the compiled application
   const runnerContent = `#!/usr/bin/env node
 import React from 'react';
-import { renderApp } from '@tui/core';
+import { renderApp } from '@shreklabs/tui-core';
 import App from './routes.js';
 
 async function main() {

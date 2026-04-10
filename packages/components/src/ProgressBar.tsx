@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text } from '@tui/core';
+import { Box, Text } from '@shreklabs/tui-core';
 
 export const ProgressBar: React.FC<{ percent: number, width?: number }> = ({ percent, width = 40 }) => {
   const p = Math.max(0, Math.min(100, percent));
