@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text } from '@shreklabs/tui-core';
+import { Box, Text } from '@ruahlabs/tui-core';
 
 export type StatusType = 'success' | 'error' | 'loading' | 'info';
 

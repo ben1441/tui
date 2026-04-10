@@ -8,13 +8,13 @@
     "start": "tui start"
   },
   "dependencies": {
-    "@shreklabs/tui-core": "workspace:*",
-    "@shreklabs/tui-router": "workspace:*",
-    "@shreklabs/tui-components": "workspace:*",
-    "@shreklabs/tui-utils": "workspace:*"
+    "@ruahlabs/tui-core": "workspace:*",
+    "@ruahlabs/tui-router": "workspace:*",
+    "@ruahlabs/tui-components": "workspace:*",
+    "@ruahlabs/tui-utils": "workspace:*"
   },
   "devDependencies": {
-    "@shreklabs/tui-cli": "workspace:*"
+    "@ruahlabs/tui-cli": "workspace:*"
   },
   "type": "module"
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Box } from '@shreklabs/tui-core';
-import { Logger, Card } from '@shreklabs/tui-components';
+import { Box } from '@ruahlabs/tui-core';
+import { Logger, Card } from '@ruahlabs/tui-components';
 import { Layout } from '../Layout.js';
-import { usePolling } from '@shreklabs/tui-utils';
+import { usePolling } from '@ruahlabs/tui-utils';
 
 export default function LogsPage() {
   const [logs, setLogs] = useState<string[]>([

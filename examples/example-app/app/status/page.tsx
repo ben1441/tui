@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Box, Text } from '@shreklabs/tui-core';
-import { StatusBadge, ProgressBar, Card } from '@shreklabs/tui-components';
+import { Box, Text } from '@ruahlabs/tui-core';
+import { StatusBadge, ProgressBar, Card } from '@ruahlabs/tui-components';
 import { Layout } from '../Layout.js';
-import { usePolling } from '@shreklabs/tui-utils';
+import { usePolling } from '@ruahlabs/tui-utils';
 
 export default function StatusPage() {
   const [progress, setProgress] = useState(0);

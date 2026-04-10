@@ -30,26 +30,26 @@ importers:
 
   examples/example-app:
     dependencies:
-      '@shreklabs/tui-components':
+      '@ruahlabs/tui-components':
         specifier: workspace:*
         version: link:../../packages/components
-      '@shreklabs/tui-core':
+      '@ruahlabs/tui-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@shreklabs/tui-router':
+      '@ruahlabs/tui-router':
         specifier: workspace:*
         version: link:../../packages/router
-      '@shreklabs/tui-utils':
+      '@ruahlabs/tui-utils':
         specifier: workspace:*
         version: link:../../packages/utils
     devDependencies:
-      '@shreklabs/tui-cli':
+      '@ruahlabs/tui-cli':
         specifier: workspace:*
         version: link:../../packages/cli
 
   packages/cli:
     dependencies:
-      '@shreklabs/tui-core':
+      '@ruahlabs/tui-core':
         specifier: workspace:*
         version: link:../core
     devDependencies:
@@ -59,7 +59,7 @@ importers:
 
   packages/components:
     dependencies:
-      '@shreklabs/tui-core':
+      '@ruahlabs/tui-core':
         specifier: workspace:*
         version: link:../core
       ink:
@@ -88,7 +88,7 @@ importers:
 
   packages/router:
     dependencies:
-      '@shreklabs/tui-core':
+      '@ruahlabs/tui-core':
         specifier: workspace:*
         version: link:../core
       ink:

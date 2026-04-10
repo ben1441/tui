@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { RouterContext } from './context';
-import { Box, Text } from '@shreklabs/tui-core';
+import { Box, Text } from '@ruahlabs/tui-core';
 
 export interface RouteDefinition {
   regex: RegExp;

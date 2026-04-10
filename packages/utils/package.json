@@ -1,5 +1,5 @@
 {
-  "name": "@shreklabs/tui-utils",
+  "name": "@ruahlabs/tui-utils",
   "version": "0.1.0",
   "files": [
     "dist"

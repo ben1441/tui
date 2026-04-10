@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Box, Text } from '@shreklabs/tui-core';
-import { Table, Stat, Card } from '@shreklabs/tui-components';
-import { usePolling } from '@shreklabs/tui-utils';
+import { Box, Text } from '@ruahlabs/tui-core';
+import { Table, Stat, Card } from '@ruahlabs/tui-components';
+import { usePolling } from '@ruahlabs/tui-utils';
 import { Layout } from './Layout.js';
 
 const mockData = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text } from '@shreklabs/tui-core';
+import { Box, Text } from '@ruahlabs/tui-core';
 
 export const Logger: React.FC<{ logs: string[], height?: number }> = ({ logs, height = 10 }) => {
   return (
