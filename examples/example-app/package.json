@@ -1,0 +1,20 @@
+{
+  "name": "example-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tui dev",
+    "build": "tui build",
+    "start": "tui start"
+  },
+  "dependencies": {
+    "@tui/core": "workspace:*",
+    "@tui/router": "workspace:*",
+    "@tui/components": "workspace:*",
+    "@tui/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@tui/cli": "workspace:*"
+  },
+  "type": "module"
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./.tui/dist",
+    "rootDir": "./"
+  },
+  "include": [
+    "app",
+    ".tui"
+  ]
+}

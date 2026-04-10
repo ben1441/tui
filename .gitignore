@@ -1,0 +1,5 @@
+node_modules
+dist
+.tui
+.DS_Store
+*.log
