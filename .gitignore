@@ -3,3 +3,4 @@ dist
 .tui
 .DS_Store
 *.log
+.npmrc
